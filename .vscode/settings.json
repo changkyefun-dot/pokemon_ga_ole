@@ -1,0 +1,13 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": ["lib/**/*.jar"],
+  "files.encoding": "utf8",
+  "terminal.integrated.defaultProfile.windows": "UTF8 Command Prompt",
+  "terminal.integrated.profiles.windows": {
+    "UTF8 Command Prompt": {
+      "path": "${env:windir}\\System32\\cmd.exe",
+      "args": ["/k", "chcp 65001 >nul"]
+    }
+  }
+}
